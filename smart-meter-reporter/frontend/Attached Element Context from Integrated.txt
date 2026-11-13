@@ -1,0 +1,103 @@
+Attached Element Context from Integrated Browser
+
+Element: select
+
+URL: http://localhost:5173/handler
+
+HTML Path: div#root > main.container > section.card > label.field > select
+
+Outer HTML:
+```html
+<select><option value="CREW-A">CREW-A — North Grid</option><option value="CREW-B">CREW-B — East Grid</option><option value="CREW-C">CREW-C — Central Grid</option><option value="CREW-D">CREW-D — South Grid</option><option value="CREW-E">CREW-E — West Grid</option></select>
+```
+
+Dimensions:
+- top: 209px
+- left: 37px
+- width: 774px
+- height: 45px
+
+CSS:
+```css
+* { box-sizing: border-box; }
+button, input, select, textarea { font: inherit; }
+input, select, textarea { padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,0.65), rgba(243,247,255,0.9));
+  color: var(--text);
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
+
+/* Inherited */
+.field { font-size: 0.92rem }
+body { font-family: Inter, "Segoe UI", sans-serif; color: var(--text) }
+
+/* Resolved values */
+margin: 0px /*UA*/;
+padding: 11px 12px;
+border-radius: 12px;
+border: 0.8px /*UA*/ solid /*UA*/ rgb(36, 50, 69) /*UA*/;
+white-space: preserve /*UA*/ nowrap /*UA*/;
+transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+-webkit-rtl-ordering: logical /*UA*/;
+align-items: center /*UA*/;
+appearance: auto /*UA*/;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(243, 247, 255, 0.9));
+background-origin: padding-box;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto;
+border-image-outset: 0 /*UA*/;
+border-image-repeat: stretch /*UA*/;
+border-image-slice: 100% /*UA*/;
+border-image-source: none /*UA*/;
+border-image-width: 1 /*UA*/;
+box-sizing: border-box;
+color: rgb(237, 243, 255);
+cursor: default /*UA*/;
+display: block;
+font-family: Inter, "Segoe UI", sans-serif;
+font-feature-settings: normal;
+font-kerning: auto;
+font-language-override: normal;
+font-optical-sizing: auto;
+font-size: 14.72px;
+font-size-adjust: none;
+font-stretch: 100%;
+font-style: normal;
+font-variant-alternates: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-emoji: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-variant-position: normal;
+font-variation-settings: normal;
+font-weight: 400;
+height: 45.2px;
+letter-spacing: normal /*UA*/;
+line-height: normal;
+min-block-size: auto /*UA*/;
+min-inline-size: auto /*UA*/;
+overflow-x: visible /*UA*/;
+overflow-y: visible /*UA*/;
+text-align: start /*UA*/;
+text-autospace: no-autospace /*UA*/;
+text-indent: 0px /*UA*/;
+text-rendering: auto /*UA*/;
+text-shadow: none /*UA*/;
+text-transform: none /*UA*/;
+user-select: auto /*UA*/;
+width: 774.4px;
+word-spacing: 0px /*UA*/;
+
+/* CSS variables */
+--text: #edf3ff;
+--line: #243245;
+```
